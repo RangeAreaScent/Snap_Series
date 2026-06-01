@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Aero Snap — Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, "Helvetica Neue", sans-serif;
+         max-width: 640px; margin: 48px auto; padding: 0 20px;
+         color: #1c1c1e; line-height: 1.55; font-size: 16px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin-top: 36px; }
+  .meta { color: #888; font-size: 13px; margin: 0 0 28px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .attribution { background: #f6f6f7; border-left: 3px solid #c7c7cc;
+                 padding: 12px 16px; margin: 18px 0; font-size: 14px;
+                 color: #444; border-radius: 0 6px 6px 0; }
+  code { background: #f0f0f2; padding: 1px 5px; border-radius: 3px;
+         font-size: 14px; }
+  footer { margin-top: 48px; font-size: 13px; color: #888;
+           border-top: 1px solid #eee; padding-top: 16px; }
+  a { color: #0a84ff; }
+</style>
+</head>
+<body>
+
+<h1>Aero Snap — Privacy Policy</h1>
+<p class="meta">Last updated: June 1, 2026</p>
+
+<p><strong>Aero Snap does not collect, store, transmit, or share any personal information.</strong> The app is offline-first and tracking-free.</p>
+
+<h2>What runs on your device</h2>
+<ul>
+  <li>All Airworthiness Directive, 14 CFR, TCDS, and Advisory Circular data is bundled locally on your device — no network lookup for any search or detail view.</li>
+  <li>Favorited ADs, My Aircraft folders, per-AD notes, and per-aircraft compliance status are stored only on your device (SwiftData).</li>
+  <li>App preferences (theme, copy format, Bluebook citation toggle, haptic toggle) are stored only on your device (<code>UserDefaults</code>).</li>
+  <li>No analytics framework, no advertising SDKs, no tracking identifiers, no third-party SDKs of any kind.</li>
+</ul>
+
+<h2>Network requests</h2>
+<p>The app makes no automatic network requests. The only outgoing traffic is initiated by you:</p>
+<ul>
+  <li><strong>"Open on Federal Register" / "Official PDF" / TCDS document links</strong> — these open in Safari on tap. Whatever happens after that is governed by Safari's privacy settings, not ours.</li>
+  <li><strong>Optional one-time supporter purchase ("Buy me a coffee")</strong> uses Apple StoreKit. Apple handles the transaction entirely; we receive only a confirmation that the purchase happened. Subject to <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
+</ul>
+<p>The core app — search across all five modes, favorites, aircraft collections, notes, 14 CFR browser, TCDS catalog, PDF/CSV export — is fully free with no time limits or feature locks. The supporter purchase only unlocks the premium theme set.</p>
+
+<h2>Exports</h2>
+<p>PDF and CSV exports are written to your device's temp directory and handed to the system share sheet. From there, <strong>you</strong> decide who sees the file (Mail, AirDrop, your filesystem, your shop's fleet-management software). Aero Snap never uploads exports anywhere.</p>
+
+<h2>Bundled dataset attribution</h2>
+<p>Aero Snap bundles a snapshot of:</p>
+<ul>
+  <li><strong>FAA Airworthiness Directives</strong> (Federal Register API)</li>
+  <li><strong>14 CFR — Federal Aviation Regulations</strong> (eCFR XML API)</li>
+  <li><strong>Type Certificate Data Sheets</strong> (curated subset of FAA TCDS PDFs)</li>
+  <li><strong>Advisory Circulars</strong> (FAA AC index)</li>
+</ul>
+<div class="attribution">
+  All four datasets are works of the United States Federal Government and are in the <strong>public domain</strong> under <a href="https://www.law.cornell.edu/uscode/text/17/105">17 U.S.C. § 105</a>. The bundled snapshot is provided for fast offline lookup, not as a substitute for the authoritative controlled document. The "Open on Federal Register" and "Official PDF" links inside the app point at the canonical federal source for each document.
+</div>
+
+<h2>Children's privacy</h2>
+<p>Aero Snap is designed for A&amp;P mechanics, IAs, aircraft owners, and aviation maintenance professionals. It is not directed at children under 13 and does not knowingly collect any information from children.</p>
+
+<h2>Contact</h2>
+<p><a href="mailto:dui0828@gmail.com">dui0828@gmail.com</a></p>
+
+<footer>
+  Source for this policy is the project's <a href="https://github.com/RangeAreaScent/Aero-Snap">GitHub repository</a>. Because the app collects nothing, material changes to this policy are extremely unlikely.
+</footer>
+
+</body>
+</html>
