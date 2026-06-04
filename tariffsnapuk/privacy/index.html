@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Tariff Snap (UK)</title>
+<meta name="description" content="Tariff Snap (UK) collects zero user data. Privacy policy, data attribution (HMRC / OGL v3.0), and contact.">
+<link rel="canonical" href="https://rangeareascent.github.io/Snap_Series/tariffsnapuk/privacy/">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1c1e;
+    --muted: #6e6e73;
+    --accent: #005EA5;       /* HMRC blue */
+    --border: #e5e5ea;
+    --code-bg: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1c1e;
+      --fg: #f5f5f7;
+      --muted: #8e8e93;
+      --accent: #4ea1e0;
+      --border: #2c2c2e;
+      --code-bg: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.55;
+    font-size: 17px;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 4px 0;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 36px 0 8px;
+    letter-spacing: -0.005em;
+  }
+  .subtitle {
+    color: var(--muted);
+    margin: 0 0 32px 0;
+    font-size: 16px;
+  }
+  p, ul { margin: 0 0 12px 0; }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  code {
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin: 32px 0;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+  }
+  blockquote {
+    margin: 12px 0;
+    padding: 12px 16px;
+    border-left: 3px solid var(--accent);
+    background: var(--code-bg);
+    border-radius: 4px;
+    color: var(--fg);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy — Tariff Snap (UK)</h1>
+  <p class="subtitle">Last updated 2 June 2026 · For Tariff Snap (UK) v1.0+</p>
+
+  <h2>Short version</h2>
+  <p><strong>Tariff Snap (UK) does not collect any user data of any kind.</strong> No analytics, no tracking, no third-party SDKs that observe your behaviour. Everything you create in the app — favourites, collections, notes, recent searches — stays on your device.</p>
+
+  <h2>What data we collect</h2>
+  <p><strong>None.</strong> Specifically:</p>
+  <ul>
+    <li>No personal information (name, email, phone, address, IP address, device identifiers).</li>
+    <li>No usage analytics or telemetry.</li>
+    <li>No crash reports sent to any server.</li>
+    <li>No advertising identifiers (IDFA, IDFV).</li>
+    <li>No location data.</li>
+    <li>No contacts, photos, microphone, camera, or other sensor access.</li>
+  </ul>
+
+  <h2>What stays on your device</h2>
+  <p>The following is stored locally and never leaves your iPhone or iPad:</p>
+  <ul>
+    <li>Favourite commodity codes (SwiftData)</li>
+    <li>Collections and the codes you add to them (SwiftData)</li>
+    <li>Per-code notes (SwiftData)</li>
+    <li>Recent searches (UserDefaults)</li>
+    <li>Theme, font size, NI Mode, and onboarding preferences (UserDefaults)</li>
+  </ul>
+  <p>All of this is deleted when you delete the app from your device.</p>
+
+  <h2>Network activity</h2>
+  <p>The only network requests Tariff Snap (UK) initiates are to Apple's StoreKit servers when you tap the optional "Support Developer" purchase, and when you tap "Restore Purchases". Those requests are handled by Apple's standard StoreKit framework and are subject to <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>, not ours.</p>
+  <p>The bundled UK Tariff database is read from the app binary itself. No fetch happens at runtime.</p>
+
+  <h2>Data source attribution</h2>
+  <blockquote>
+    Contains public sector information licensed under the Open Government License v3.0.<br>
+    Source: HMRC Trade Tariff Service / DBT Tariff Data API.<br>
+    Tariff Snap (UK) is not affiliated with HM Government or HMRC. For official trade decisions, consult the live HMRC service or a qualified customs broker.
+  </blockquote>
+  <p>
+    <a href="https://www.trade-tariff.service.gov.uk">trade-tariff.service.gov.uk</a> &middot;
+    <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government License v3.0</a>
+  </p>
+
+  <h2>Third-party SDKs</h2>
+  <p>Tariff Snap (UK) ships with one third-party software dependency: <a href="https://github.com/groue/GRDB.swift">GRDB.swift</a>, a SQLite toolkit used to read the bundled UK Tariff database. GRDB.swift runs entirely on-device and does not transmit any information.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Tariff Snap (UK) is not directed at children under 13. It is rated 4+ for safe content but is designed for professional use by customs brokers, importers, exporters, and freight forwarders.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If we ever change this policy, the new version will be published at this same URL with an updated "Last updated" date at the top, and the change will be summarised in the app's release notes ("What's New in This Version") for that version.</p>
+
+  <h2>Contact</h2>
+  <p>If you have any privacy questions, please email <a href="mailto:dui0828@gmail.com">dui0828@gmail.com</a>.</p>
+
+  <hr>
+  <p class="meta">Tariff Snap (UK) is part of the Snap Series — a family of offline-first reference apps for professionals. See <a href="https://rangeareascent.github.io/Snap_Series/">the series index</a> for sister apps (Tariff Snap for the US HTS, ICD Snap for medical diagnosis codes, and more).</p>
+</main>
+</body>
+</html>
