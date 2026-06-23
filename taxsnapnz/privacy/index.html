@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tax Snap (NZ) — Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, "Helvetica Neue", sans-serif;
+         max-width: 640px; margin: 48px auto; padding: 0 20px;
+         color: #1c1c1e; line-height: 1.55; font-size: 16px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin-top: 36px; }
+  .meta { color: #888; font-size: 13px; margin: 0 0 28px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .attribution { background: #f6f6f7; border-left: 3px solid #c7c7cc;
+                 padding: 12px 16px; margin: 18px 0; font-size: 14px;
+                 color: #444; border-radius: 0 6px 6px 0; }
+  code { background: #f0f0f2; padding: 1px 5px; border-radius: 3px;
+         font-size: 14px; }
+  footer { margin-top: 48px; font-size: 13px; color: #888;
+           border-top: 1px solid #eee; padding-top: 16px; }
+  a { color: #0a84ff; }
+</style>
+</head>
+<body>
+
+<h1>Tax Snap (NZ) — Privacy Policy</h1>
+<p class="meta">Last updated: June 14, 2026</p>
+
+<p>Tax Snap (NZ) is an offline reference tool for New Zealand tax statutes, IRD rulings, IRD guidance, and IRD forms. It is published by an independent developer and is <strong>not affiliated with Inland Revenue, the Treasury, or the New Zealand Government</strong>.</p>
+
+<p>This page explains, in plain language, exactly what data the app handles — and what it doesn't.</p>
+
+<h2>1. What the app collects</h2>
+<p><strong>Nothing.</strong> Tax Snap (NZ) does not collect, transmit, store on a server, or share any personal information.</p>
+<p>There are no user accounts. There is no registration. There is no login. There is no email or phone number. The app does not ask for, and does not have access to, your IRD number, your taxable income, your client list, your bank details, or any other personal information.</p>
+
+<h2>2. What is on your device</h2>
+<p>The following are stored <strong>locally on your iPhone or iPad only</strong> and never leave it:</p>
+<ul>
+  <li><strong>Favourites</strong> — sections, rulings, guidance, forms, and rates you star.</li>
+  <li><strong>Collections</strong> — folders you create with optional client labels (a label you typed yourself; the app cannot validate or use it for any purpose).</li>
+  <li><strong>Notes</strong> — any free-text note you attach to a favourited item.</li>
+  <li><strong>Recently viewed</strong> — the last few items you opened, to make navigation faster.</li>
+  <li><strong>Settings</strong> — theme, app-icon choice, citation style, font-size preference.</li>
+  <li><strong>Onboarding state</strong> — a flag remembering you've seen the welcome screen.</li>
+  <li><strong>Premium unlock state</strong> — whether you've purchased the Supporter In-App Purchase, plus a developer debug-unlock flag for testing.</li>
+</ul>
+<p>All of this is held in standard iOS sandboxed storage (<code>UserDefaults</code> and the local SQLite database that ships with the app). Apple's iCloud Backup will include this data <strong>only if</strong> you have iCloud Backup enabled in iOS Settings, in which case it is encrypted under your iCloud credentials. The app itself never reads, writes to, or syncs anything to iCloud.</p>
+<p>If you uninstall Tax Snap (NZ), all of the above is removed by iOS along with the app.</p>
+
+<h2>3. What is bundled with the app</h2>
+<p>The app ships with a read-only SQLite database (~60 MB) containing:</p>
+<ul>
+  <li>Sections of the <strong>Income Tax Act 2007</strong>, <strong>Tax Administration Act 1994</strong>, <strong>Goods and Services Tax Act 1985</strong>, and <strong>KiwiSaver Act 2006</strong> — sourced from <a href="https://www.legislation.govt.nz/">legislation.govt.nz</a> under Crown copyright (Legislation Act 2019).</li>
+  <li><strong>IRD public rulings, product rulings, interpretation statements, standard practice statements, questions-we've-been-asked, technical decision summaries, and operational statements</strong> — sourced from <a href="https://www.taxtechnical.ird.govt.nz/">taxtechnical.ird.govt.nz</a> under Crown copyright (CC BY 4.0).</li>
+  <li><strong>Tax Information Bulletins (TIBs)</strong> — sourced from the same site.</li>
+  <li><strong>IRD form descriptions</strong> (IR3, IR4, IR6, GST101A, KS1–KS10, etc.).</li>
+  <li><strong>Tax rates and thresholds</strong> for the current and recent income years.</li>
+</ul>
+<div class="attribution">
+This data is <strong>public-domain Crown copyright material</strong>. It is not, and never has been, your personal information.
+</div>
+
+<h2>4. Network activity</h2>
+<p>Tax Snap (NZ) makes <strong>no network requests of any kind</strong> under normal operation. Every search, every detail view, and every cross-link chip is served from the local SQLite database that ships with the app.</p>
+<p>The only network calls Apple's StoreKit framework may initiate on the app's behalf are:</p>
+<ul>
+  <li>Verifying your one-time <strong>Supporter In-App Purchase</strong>, when you tap "Buy me a coffee" or "Restore Purchase". This is handled entirely by Apple's StoreKit. <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a> governs how StoreKit handles your purchase information.</li>
+  <li>Opening an external link in Safari when you tap the "Open in IRD/legislation.govt.nz" button on a detail page. This loads the source page on the public IRD or NZ Legislation website using your iOS web browser. The developer of this app never sees that you did so.</li>
+</ul>
+
+<h2>5. Analytics, crash reporting, advertising, tracking</h2>
+<p>There are none.</p>
+<ul>
+  <li>No third-party analytics SDK.</li>
+  <li>No crash reporting SDK.</li>
+  <li>No advertising SDK.</li>
+  <li>No tracking SDK.</li>
+  <li>No fingerprinting.</li>
+  <li>No App Tracking Transparency (ATT) prompt because there is nothing to track.</li>
+</ul>
+<p>If you experience a crash, Apple's standard iOS crash reporter (the same one all iOS apps use) may include a stack trace in the system-wide diagnostics that you can choose to share with developers via iOS Settings → Privacy &amp; Security → Analytics &amp; Improvements. The developer of Tax Snap (NZ) receives only the anonymous, aggregated reports Apple chooses to provide via App Store Connect.</p>
+
+<h2>6. Children</h2>
+<p>Tax Snap (NZ) is intended for tax practitioners, accountants, and self-lodging adult taxpayers in New Zealand. It is not directed at children and does not knowingly collect any information from anyone.</p>
+
+<h2>7. Your rights</h2>
+<p>Because the app does not collect or hold any personal information about you, there is no personal information to access, correct, port, or delete. If you wish to delete the local-on-device data (favourites, notes, collections, etc.), the standard iOS uninstall flow is the canonical mechanism — long-press the app icon → Remove App → Delete App.</p>
+<p>If you would like to delete only the local-on-device data while keeping the app installed, the relevant levers are in Settings:</p>
+<ul>
+  <li><strong>Settings → Reset → Clear Recently Viewed</strong> removes the recently-viewed list.</li>
+  <li><strong>Settings → Reset → Reset Onboarding</strong> clears the onboarding-seen flag.</li>
+  <li>Favourites, Notes, and Collections can be deleted individually inside their respective tabs.</li>
+</ul>
+<p>Under the New Zealand Privacy Act 2020 you have the right to ask whether an organisation holds personal information about you and to request access or correction. Because Tax Snap (NZ)'s developer holds no personal information about you, no such request is necessary.</p>
+
+<h2>8. Source-of-truth disclaimer</h2>
+<p>Tax Snap (NZ) is a reference tool. It does not constitute tax advice. New Zealand tax law is complex and changes regularly. For specific tax matters, consult a registered Tax Agent or a CA ANZ–qualified accountant. Always check the canonical source — <a href="https://www.legislation.govt.nz/">legislation.govt.nz</a> for statutory text and <a href="https://www.ird.govt.nz/">ird.govt.nz</a> for IRD interpretations.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If this policy changes (for example, to disclose any genuinely new data-handling behaviour the app picks up), the change will be reflected on this page along with an updated "Last updated" date. The app itself will continue to link to this page at:</p>
+<p><code>https://rangeareascent.github.io/Snap_Series/taxsnapnz/privacy/</code></p>
+
+<h2>10. Contact</h2>
+<p>For questions about this policy or about the app generally, the developer can be reached via the App Store listing for <strong>Tax Snap (NZ)</strong>, where Apple provides a "Developer Website" and a privacy questions link.</p>
+<p>For complaints about the app's handling of personal information that you believe this policy does not adequately address, the Office of the Privacy Commissioner (NZ) operates a complaint process at <a href="https://www.privacy.org.nz/">privacy.org.nz</a>.</p>
+
+<footer>
+  Tax Snap (NZ) — independent app, not affiliated with Inland Revenue or the New Zealand Government.<br>
+  Source data: <a href="https://www.legislation.govt.nz/">legislation.govt.nz</a> (Crown copyright, Legislation Act 2019) and <a href="https://www.taxtechnical.ird.govt.nz/">taxtechnical.ird.govt.nz</a> / <a href="https://www.ird.govt.nz/">ird.govt.nz</a> (Crown copyright, CC BY 4.0).
+</footer>
+
+</body>
+</html>
