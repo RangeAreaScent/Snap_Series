@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tax Snap (CA) — Privacy Policy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="alternate" hreflang="en" href="https://rangeareascent.github.io/Snap_Series/taxsnapca/privacy/">
+<link rel="alternate" hreflang="fr" href="https://rangeareascent.github.io/Snap_Series/taxsnapca/privacy/fr/">
+<style>
+  body { font-family: -apple-system, "Helvetica Neue", sans-serif;
+         max-width: 640px; margin: 48px auto; padding: 0 20px;
+         color: #1c1c1e; line-height: 1.55; font-size: 16px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin-top: 36px; }
+  .meta { color: #888; font-size: 13px; margin: 0 0 28px; }
+  .lang-switch { color: #888; font-size: 13px; margin: 0 0 28px;
+                 padding-bottom: 16px; border-bottom: 1px solid #eee; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .attribution { background: #f6f6f7; border-left: 3px solid #c7c7cc;
+                 padding: 12px 16px; margin: 18px 0; font-size: 14px;
+                 color: #444; border-radius: 0 6px 6px 0; }
+  code { background: #f0f0f2; padding: 1px 5px; border-radius: 3px;
+         font-size: 14px; }
+  footer { margin-top: 48px; font-size: 13px; color: #888;
+           border-top: 1px solid #eee; padding-top: 16px; }
+  a { color: #0a84ff; }
+</style>
+</head>
+<body>
+
+<h1>Tax Snap (CA) — Privacy Policy</h1>
+<p class="meta">Last updated: June 23, 2026</p>
+<p class="lang-switch">English · <a href="fr/">Français</a></p>
+
+<p>Tax Snap (CA) is an offline reference tool for Canadian federal and provincial tax statutes, CRA publications, CRA guidance (Tax Tips + GST/HST Memoranda), CRA forms, and tax rates. It is published by an independent developer and is <strong>not affiliated with the Canada Revenue Agency, the Department of Finance Canada, or the Government of Canada</strong>.</p>
+
+<p>This page explains, in plain language, exactly what data the app handles — and what it doesn't.</p>
+
+<h2>1. What the app collects</h2>
+<p><strong>Nothing.</strong> Tax Snap (CA) does not collect, transmit, store on a server, or share any personal information.</p>
+<p>There are no user accounts. There is no registration. There is no login. There is no email or phone number. The app does not ask for, and does not have access to, your Social Insurance Number (SIN), your CRA Business Number (BN), your taxable income, your client list, your bank details, or any other personal information.</p>
+
+<h2>2. What is on your device</h2>
+<p>The following are stored <strong>locally on your iPhone or iPad only</strong> and never leave it:</p>
+<ul>
+  <li><strong>Favourites</strong> — sections, publications, guidance, forms, and rates you star.</li>
+  <li><strong>Collections</strong> — folders you create with optional client labels (a label you typed yourself; the app cannot validate or use it for any purpose).</li>
+  <li><strong>Notes</strong> — any free-text note you attach to a favourited item.</li>
+  <li><strong>Recently viewed</strong> — the last few items you opened, to make navigation faster.</li>
+  <li><strong>Settings</strong> — theme, app-icon choice, citation style, font-size preference, <strong>interface language (English or French)</strong>.</li>
+  <li><strong>Onboarding state</strong> — a flag remembering you've seen the welcome screen.</li>
+  <li><strong>Premium unlock state</strong> — whether you've purchased the Supporter In-App Purchase, plus a developer debug-unlock flag for testing.</li>
+</ul>
+<p>All of this is held in standard iOS sandboxed storage (<code>UserDefaults</code> and the local SQLite database that ships with the app). Apple's iCloud Backup will include this data <strong>only if</strong> you have iCloud Backup enabled in iOS Settings, in which case it is encrypted under your iCloud credentials. The app itself never reads, writes to, or syncs anything to iCloud.</p>
+<p>If you uninstall Tax Snap (CA), all of the above is removed by iOS along with the app.</p>
+
+<h2>3. What is bundled with the app</h2>
+<p>The app ships with a read-only SQLite database (~41 MB) containing <strong>bilingual (English + French)</strong> copies of:</p>
+<ul>
+  <li>Sections of the <strong>Income Tax Act</strong>, <strong>Excise Tax Act</strong>, <strong>Canada Pension Plan</strong>, and <strong>Employment Insurance Act</strong> — sourced from <a href="https://laws-lois.justice.gc.ca/">laws-lois.justice.gc.ca</a> under the Reproduction of Federal Law Order and the Open Government Licence – Canada 2.0.</li>
+  <li><strong>CRA Income Tax Folios</strong> (S1–S6 series) — sourced from <a href="https://www.canada.ca/en/revenue-agency.html">canada.ca/cra</a> under the Open Government Licence – Canada 2.0.</li>
+  <li><strong>CRA Tax Tips</strong> and <strong>GST/HST Memoranda Series chapters</strong> — sourced from <a href="https://www.canada.ca/en/revenue-agency.html">canada.ca/cra</a> under the Open Government Licence – Canada 2.0.</li>
+  <li><strong>CRA form descriptions</strong> (T1 General, T2, T3, T4, T4A, T5, T5008, GST34, etc.).</li>
+  <li><strong>Federal, provincial, and territorial tax rates and thresholds</strong> for the current and recent tax years.</li>
+</ul>
+<p>This data is <strong>public-domain Crown copyright material</strong>, redistributed under the licences cited above. It is not, and never has been, your personal information.</p>
+
+<h2>4. Network activity</h2>
+<p>Tax Snap (CA) makes <strong>no network requests of any kind</strong> under normal operation. Every search, every detail view, and every cross-link chip is served from the local SQLite database that ships with the app.</p>
+<p>The only network calls Apple's StoreKit framework may initiate on the app's behalf are:</p>
+<ul>
+  <li>Verifying your one-time <strong>Supporter In-App Purchase</strong>, when you tap "Buy me a coffee" or "Restore Purchase". This is handled entirely by Apple's StoreKit. Apple's privacy policy governs how StoreKit handles your purchase information.</li>
+  <li>Opening an external link in Safari when you tap the "Open on canada.ca" or "Open in legislation" button on a detail page. This loads the source page on the public Justice Laws Website or canada.ca using your iOS web browser. The developer of this app never sees that you did so.</li>
+</ul>
+
+<h2>5. Analytics, crash reporting, advertising, tracking</h2>
+<p>There are none.</p>
+<ul>
+  <li>No third-party analytics SDK.</li>
+  <li>No crash reporting SDK.</li>
+  <li>No advertising SDK.</li>
+  <li>No tracking SDK.</li>
+  <li>No fingerprinting.</li>
+  <li>No App Tracking Transparency (ATT) prompt because there is nothing to track.</li>
+</ul>
+<p>If you experience a crash, Apple's standard iOS crash reporter (the same one all iOS apps use) may include a stack trace in the system-wide diagnostics that you can choose to share with developers via iOS Settings → Privacy &amp; Security → Analytics &amp; Improvements. The developer of Tax Snap (CA) receives only the anonymous, aggregated reports Apple chooses to provide via App Store Connect.</p>
+
+<h2>6. Children</h2>
+<p>Tax Snap (CA) is intended for tax practitioners, accountants, and self-filing adult taxpayers in Canada. It is not directed at children and does not knowingly collect any information from anyone.</p>
+
+<h2>7. Your rights</h2>
+<p>Because the app does not collect or hold any personal information about you, there is no personal information to access, correct, port, or delete. If you wish to delete the local-on-device data (favourites, notes, collections, etc.), the standard iOS uninstall flow is the canonical mechanism — long-press the app icon → Remove App → Delete App.</p>
+<p>If you would like to delete only the local-on-device data while keeping the app installed, the relevant levers are in Settings:</p>
+<ul>
+  <li><strong>Settings → Reset → Clear Recently Viewed</strong> removes the recently-viewed list.</li>
+  <li><strong>Settings → Reset → Reset Onboarding</strong> clears the onboarding-seen flag.</li>
+  <li>Favourites, Notes, and Collections can be deleted individually inside their respective tabs.</li>
+</ul>
+<p>Under the federal <strong>Personal Information Protection and Electronic Documents Act (PIPEDA)</strong> and applicable provincial privacy laws (Quebec Law 25, BC PIPA, Alberta PIPA), you have rights with respect to personal information held about you. Because Tax Snap (CA)'s developer holds no personal information about you, no such request is necessary.</p>
+
+<h2>8. Source-of-truth disclaimer</h2>
+<p>Tax Snap (CA) is a reference tool. It does not constitute tax advice or legal advice. Canadian tax law is complex, varies by province, and changes regularly. For specific tax matters, consult a CPA (Chartered Professional Accountant), a tax lawyer, or a CRA-registered tax preparer. Always check the canonical source — <a href="https://laws-lois.justice.gc.ca/">laws-lois.justice.gc.ca</a> for statutory text and <a href="https://www.canada.ca/en/revenue-agency.html">canada.ca/cra</a> for CRA interpretations.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If this policy changes (for example, to disclose any genuinely new data-handling behaviour the app picks up), the change will be reflected on this page along with an updated "Last updated" date. The app itself will continue to link to this page at:</p>
+<p><code>https://rangeareascent.github.io/Snap_Series/taxsnapca/privacy/</code></p>
+<p>You can subscribe to that URL via your preferred change-tracking tool to be notified of edits.</p>
+
+<h2>10. Contact</h2>
+<p>For questions about this policy or about the app generally, the developer can be reached via the App Store listing for <strong>Tax Snap (CA)</strong>, where Apple provides a "Developer Website" and a privacy questions link.</p>
+<p>For complaints about the app's handling of personal information that you believe this policy does not adequately address, the <strong>Office of the Privacy Commissioner of Canada</strong> operates a complaint process at <a href="https://www.priv.gc.ca/">priv.gc.ca</a>. Quebec residents may also contact the <strong>Commission d'accès à l'information du Québec</strong> at <a href="https://www.cai.gouv.qc.ca/">cai.gouv.qc.ca</a>.</p>
+
+<footer>
+  Tax Snap (CA) · Privacy Policy v1.0 · 2026-06-23<br>
+  <a href="fr/">Version française</a>
+</footer>
+
+</body>
+</html>
